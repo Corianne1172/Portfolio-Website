@@ -43,6 +43,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
+              <a class="nav-link" href="#projects-section">Projects</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#mission-section">Mission</a>
             </li>
             <li class="nav-item">
@@ -73,22 +76,21 @@
       </p>
     </section>
 
-    <section id="skills-section" class="container-fluid text-center py-5">
+    <!-- Projects section -->
+    <section id="projects-section" class="container-fluid text-center py-5">
       <h2 class="mb-4">Projects</h2>
       <div class="row d-flex flex-wrap justify-content-center">
-        <div
-          class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center"
-        >
-          <img
-            src="https://www.cnet.com/a/img/resize/b9b09bd80b3129a6a5da79d9bd17487b977c9677/hub/2014/10/27/40194e6e-2544-419e-a340-f7c17b2e83c5/html5-wow-image-w3c.jpg?auto=webp&width=768"
-            alt="HTML"
-            class="img-fluid rounded-circle mb-3"
-          />
-          <h5>HTML</h5>
-          <p>
-            Crafting the backbone of every website with structured, semantic
-            HTML.
-          </p>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/project1-screenshot.jpg" class="card-img-top" alt="Screenshot of Project 1" />
+            <div class="card-body text-start">
+              <h5 class="card-title">Real Estate Booking CLI App</h5>
+              <p class="card-text">
+                A Java-based command-line application for managing property listings, bookings, and users. Integrated with PostgreSQL.
+              </p>
+              <a href="https://github.com/Corianne1172/real-estate-app" target="_blank" class="btn btn-outline-primary btn-sm">View on GitHub</a>
+            </div>
+          </div>
         </div>
 
         <div
@@ -134,6 +136,7 @@
       </div>
     </section>
 
+    <!-- Mission section -->
     <section
       id="mission-section"
       class="container-fluid text-center d-flex flex-column justify-content-center py-0"
@@ -161,6 +164,7 @@
       </div>
     </section>
 
+    <!-- Skills section-->
     <section id="skills-section" class="container-fluid text-center py-5">
       <h2 class="mb-4">Skills</h2>
       <div class="row d-flex flex-wrap justify-content-center">
