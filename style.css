@@ -147,3 +147,8 @@ p {
 .contact-icon:hover {
   color: #c95169;
 }
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in-out;
+}
