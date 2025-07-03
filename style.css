@@ -71,7 +71,7 @@ p {
   background-color: #f7a7bb;
   color: #911427;
   height: 100vh;
-  padding: 100px;
+  padding: clamp(2rem, 10vw, 5rem);
   margin: 0;
 }
 
