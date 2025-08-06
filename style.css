@@ -130,18 +130,12 @@ p {
   margin-bottom: 20px;
 }
 
-/*#mission-section {
-  background-color: #f7a7bb;
-  color: #911427;
-  height: 100vh;
-  padding: clamp(2rem, 10vw, 5rem);
-  margin: 2;
-}*/
+
 #contact-section {
   background-color: #f7a7bb;
   color: #911427;
   width: 100%;
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -151,15 +145,17 @@ p {
 
 #contact-section h2 {
   color: #c95169;
-  font-size: 2.5rem;
-  padding: 100px;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
-.contact-icon {
-  font-size: 3rem;
-  color: #5a3e42;
-  transition: color 0.3s ease-in-out;
-  text-decoration: none;
+.contact-icons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .contact-icon:hover {
@@ -169,4 +165,11 @@ p {
 .card:hover {
   transform: translateY(-5px);
   transition: transform 0.2s ease-in-out;
+}
+
+.contact-subtitle {
+  color: #5a3e42;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
