@@ -128,27 +128,18 @@ p {
   height: auto;
 }
 
-/* Frosted box for header and paragraph */
-.mission-box {
+.mission-text {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   border-radius: 15px;
-  padding: 1.5rem 2rem;
-  margin: 1.5rem auto;
-  display: inline-block;
-  max-width: 90%;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-.mission-box h2 {
-  color: #911427;
-  font-size: clamp(2rem, 4vw, 2.5rem);
-}
-
-.mission-box p {
   color: #dc3461;
+}
+
+.mission-text p {
   font-size: clamp(1rem, 2.2vw, 1.4rem);
   line-height: 1.6;
+  margin: 0;
 }
 
 
