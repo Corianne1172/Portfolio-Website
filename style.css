@@ -1,19 +1,20 @@
 body {
   background: linear-gradient(
-    180deg, 
-    #ffcdb2, 
-    #ffb4a2, 
-    #e5989b, 
-    #b5838d, 
-    #6d6875
+    180deg,
+    #461220,
+    #8c2f39,
+    #b23a48,
+    #fcb9b2,
+    #fed0bb
   );
   width: 100%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Rubik', sans-serif;
-  color: #fff;
+  font-family: 'Rubik', sans‑serif;
+  color: #fff; /* ensures text shows up decently */
 }
+
 
 
 .navbar {
