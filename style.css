@@ -99,7 +99,29 @@ p {
 
 #projects-section {
   background: linear-gradient(to bottom, #ffb3c6, #ff8fab);
+  padding: 4rem 1rem;
 }
+
+#projects-section h2 {
+  color: #c95169;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+}
+
+#projects-section .card {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  color: #5a3e42;
+}
+
+#projects-section .card .card-title {
+  color: #911427;
+}
+
+#projects-section .card .card-text {
+  color: #5a3e42;
+}
+
 
 #skills-section {
   background: linear-gradient(to bottom, #fb6f92, #ff8fab);
@@ -113,15 +135,15 @@ p {
 
 #mission-section h2 {
   font-size: clamp(2rem, 4vw, 2.5rem);
-  color: #f0627f;
+  color: #c95169;
 }
 
 .mission-text {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.2); 
   backdrop-filter: blur(5px);
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  color: #dc3461;
+  color: #5a3e42;
   padding: 2rem;
 }
 
@@ -130,7 +152,6 @@ p {
   line-height: 1.6;
   margin: 0;
 }
-
 
 /* Transparent box for Contact section */
 #contact-section.contact-box { 
