@@ -97,14 +97,6 @@ p {
   color: #e5989b;
 }
 
-#mission-section {
-  color: #911427;
-  height: 100vh;
-  padding: clamp(2rem, 10vw, 5rem);
-  margin: 0;
-  background: linear-gradient(to bottom, #ffe5ec, #ffc2d1);
-}
-
 #projects-section {
   background: linear-gradient(to bottom, #ffb3c6, #ff8fab);
 }
@@ -113,24 +105,35 @@ p {
   background: linear-gradient(to bottom, #fb6f92, #ff8fab);
 }
 
+#mission-section {
+  background: linear-gradient(to bottom, #ffe5ec, #ffc2d1);
+  padding: 4rem 1rem;
+  color: #911427;
+}
+
 #mission-section h2 {
+  font-size: clamp(2rem, 4vw, 2.5rem);
   color: #f0627f;
-  font-size: 2.5rem;
 }
 
-#mission-section p {
+.mission-text {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   color: #dc3461;
-  font-size: 1.5rem;
+  padding: 2rem;
 }
 
-#mission-section img {
-  max-width: 100%;
-  height: auto;
+.mission-text p {
+  font-size: clamp(1rem, 2.2vw, 1.4rem);
+  line-height: 1.6;
+  margin: 0;
 }
 
 
 /* Transparent box for Contact section */
-#contact-section .contact-box {
+#contact-section.contact-box { 
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   border-radius: 15px;
