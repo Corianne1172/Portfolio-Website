@@ -12,11 +12,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Rubik', sans‑serif;
-  color: #333; /* consider a darker text color since the gradient is light */
+  color: #333;
 }
-
-
-
 
 .navbar {
   margin-top: 0 !important;
@@ -41,14 +38,15 @@ body {
 }
 
 .hero-headshot {
-  width: clamp(100px, 15vw, 200px);
-  height: clamp(100px, 15vw, 200px);
+  width: clamp(150px, 20vw, 250px);
+  height: clamp(150px, 20vw, 250px);
   border-radius: 50%;
-  border: 5px solid #b5828c;
+  border: 5px solid #fb6f92;
   object-fit: cover;
   position: relative;
   z-index: 1;
 }
+
 
 h1 {
   font-size: clamp(1.5rem, 5vw, 3rem);
