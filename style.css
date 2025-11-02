@@ -128,20 +128,6 @@ p {
   height: auto;
 }
 
-.mission-text {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px);
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  color: #dc3461;
-}
-
-.mission-text p {
-  font-size: clamp(1rem, 2.2vw, 1.4rem);
-  line-height: 1.6;
-  margin: 0;
-}
-
 
 /* Transparent box for Contact section */
 #contact-section .contact-box {
