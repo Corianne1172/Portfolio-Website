@@ -1,19 +1,20 @@
 body {
   background: linear-gradient(
     180deg,
-    #461220,
-    #8c2f39,
-    #b23a48,
-    #fcb9b2,
-    #fed0bb,
+    #ffe5ec,
+    #ffc2d1,
+    #ffb3c6,
+    #ff8fab,
+    #fb6f92
   );
   width: 100%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: 'Rubik', sans‑serif;
-  color: #fff; /* ensures text shows up decently */
+  color: #333; /* consider a darker text color since the gradient is light */
 }
+
 
 
 
