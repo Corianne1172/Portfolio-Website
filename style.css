@@ -199,6 +199,24 @@ p {
   font-size: 2.5rem;
 }
 
+.skills-subtitle {
+  color: #5a3e42;
+  font-size: 1.1rem;
+}
+
+.skill-category-heading {
+  color: #911427;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  text-align: left;
+  padding-left: 0.25rem;
+}
+
+.skill-category-heading:first-of-type {
+  margin-top: 0;
+}
+
 .skill-icon-wrapper {
   display: flex;
   align-items: center;
