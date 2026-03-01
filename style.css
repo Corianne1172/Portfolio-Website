@@ -133,6 +133,23 @@ p {
   color: #5a3e42;
 }
 
+.tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.tech-chip {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #5a3e42;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+}
+
 
 #skills-section {
   background: linear-gradient(to bottom, #fb6f92, #ff8fab);
